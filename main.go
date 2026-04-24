@@ -4,6 +4,7 @@ import "fmt"
 
 func greet(name string, age int) {
 	fmt.Println("Hello,", name)
+	fmt.Println("You are", age, "years old")
 }
 
 func main() {
